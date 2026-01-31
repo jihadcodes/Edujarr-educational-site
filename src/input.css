@@ -90,3 +90,11 @@
    @apply  pr-[10px] pl-7.5
 
     } */
+
+.banner-bottom{
+    @apply bg-gradient-to-r from-[#6A2BD9] via-[#3B5BDB] to-[#1E88E5] h-[169px] mb-20
+}
+
+.companies{
+    @apply flex h-[169px] w-[1624px] pl-[94]  items-center ml-[94px] gap-[133px]
+}
