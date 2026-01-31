@@ -1,1 +1,92 @@
 @import "tailwindcss";
+
+
+/* =====Font-Family===== */
+@theme {
+  --font-revalia: "Revalia", sans-serif;
+  --font-saira: "Saira", sans-serif;
+  --font-rowdies: "Rowdies", sans-serif;
+  --font-inter : "Inter", sans-serif;
+  --font-spartan : "League Spartan", sans-serif;
+}
+
+.container{
+    @apply max-w-406 mx-auto
+}
+/* ======NavBar====== */
+.logo{
+    @apply pt-6 pb-8.75 pr-[143px] cursor-pointer
+}
+.menu{
+    @apply mr-[121.88px]
+}
+.menu ul {
+    @apply gap-[21.87px] pt-[41px] pb-[52px]
+}
+.menu ul li a {
+    @apply font-saira font-medium text-[20px] leading-6 text-[#1B2336] pr-[13px] duration-300
+}
+.menu ul li a:hover {
+    @apply text-[#2AAA94]
+}
+
+.btn-1{
+    @apply font-saira font-medium text-[20px] leading-[35px] text-[#4A4A4A] pb-[45px] pt-[39px] mr-[37px] underline cursor-pointer
+}
+.btn-2 {
+    @apply font-saira font-medium text-[20px] leading-5.5 text-[#FFFFFF]  cursor-pointer pt-4.5 pr-[25px] pb-[19px] pl-[37px] bg-linear-to-br from-[#083F9B] to-[#7F56D9] rounded-[10px] 
+}
+
+.info{
+    @apply pt-[44px] pb-[49px] mr-36 flex gap-[28.5px]
+}
+.img-1{
+    @apply relative
+}
+/* .info span p{
+    @apply absolute top-[-5px] right-0 bg-[#2AAA94] w-5 h-5 rounded-full text-[#FFFFFF] font-spartan font-semibold text-[10px] flex  items-center justify-center
+} */
+
+/* ======Banner====== */
+.banner{
+    @apply flex bg-linear-to-bl from-[#04016C] to-[#4A16BD] 
+}
+.banner-left{
+    @apply  w-203 pt-[107px] 
+}
+.banner-right{
+    @apply  w-203 
+}
+.banner-left p{
+    @apply font-saira font-semibold text-[18px] leading-5 text-[#FFFFFF] tracking-[3px] opacity-80 pb-[63px]
+}
+.banner-hedding{
+    @apply font-rowdies font-normal text-[80px] text-[#FFFFFF] pb-[92px]
+}
+.color-span{
+    @apply text-[#4BE5CA]
+}
+.banner-btn-1{
+    @apply font-saira font-semibold text-[18px] leading-7 text-[#FFFFFF]  cursor-pointer pt-4.5 pr-[30px] pb-[22px] pl-[38px] border-2 rounded-[10px] mr-[35.75px]  
+}
+.banner-btn-2{
+    @apply pt-[10px] font-saira font-medium text-[18px] leading-13 text-[#FFFFFF]
+}
+
+
+.search{
+    @apply mt-[79px] flex items-center  bg-white rounded-[7px]
+         w-[489px]  h-[70px] p-2.5
+}
+
+.search input{
+    @apply flex-1  pt-[23px] pr-[44px] pb-[29px] pl-[35px] font-saira font-normal text-[16px] text-[#4F547B] 
+}
+.search-btn{
+   @apply   py-[15.8px] pr-[29.8px] pl-7.5 gap-[10px]  font-inter text-[15px] leading-[28.5px] text-[#FFFFFF] bg-linear-to-r from-[#3023B2] to-[#7F56D9] rounded-[10px]
+
+    }
+/* .search-btn i{
+   @apply  pr-[10px] pl-7.5
+
+    } */
