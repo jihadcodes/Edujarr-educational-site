@@ -52,7 +52,7 @@
     @apply flex bg-linear-to-bl from-[#04016C] to-[#4A16BD] 
 }
 .banner-left{
-    @apply  w-203 pt-[107px] 
+    @apply  w-203 pt-[107px] pb-[184px]
 }
 .banner-right{
     @apply  w-203 
@@ -80,7 +80,7 @@
 }
 
 .search input{
-    @apply flex-1  pt-[23px] pr-[44px] pb-[29px] pl-[35px] font-saira font-normal text-[16px] text-[#4F547B] 
+    @apply flex-1 outline-0 pt-[23px] pr-[44px] pb-[29px] pl-[35px] font-saira font-normal text-[16px] text-[#4F547B] 
 }
 .search-btn{
    @apply   py-[15.8px] pr-[29.8px] pl-7.5 gap-[10px]  font-inter text-[15px] leading-[28.5px] text-[#FFFFFF] bg-linear-to-r from-[#3023B2] to-[#7F56D9] rounded-[10px]
@@ -97,4 +97,42 @@
 
 .companies{
     @apply flex h-[169px] w-[1624px] pl-[94]  items-center ml-[94px] gap-[133px]
+}
+
+.right-content{
+    @apply   flex 
+}
+.border-part{
+    @apply h-[50px] w-px bg-[#2AAA94] ml-3
+}
+.quote-icon{
+    @apply w-6 h-6 rounded-full flex items-center justify-center bg-[#81C7A2] mt-2 mb-2
+}
+.side-bar{
+    @apply w-6 mt-[214px] flex-col justify-center mr-[25px] 
+}
+.right-c-2{
+    @apply mt-52 w-[272px]
+}
+
+.right-c-2 h3{
+    @apply font-rowdies font-normal text-[16px] leading-[20.4px] text-[#FFFFFF] pb-[11px]
+}
+.right-c-2 p{
+    @apply font-saira font-normal text-[16px] leading-6 text-[#FFFFFF] pb-2
+}
+.rating-section{
+    @apply  flex items-center 
+}
+.rating-1{ 
+    @apply font-inter font-bold text-[12px] leading-[25.2px] text-[#5AB48E] mr-[9.38px] pt-px 
+}
+.banner-logo{
+    @apply w-[658px] h-[908px] absolute top-[25px] left-[120px]
+}
+.banner-logo img{
+    @apply w-fit h-fit
+}
+.banner-right{
+    @apply flex relative
 }
