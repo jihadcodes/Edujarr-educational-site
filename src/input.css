@@ -128,7 +128,7 @@
     @apply font-inter font-bold text-[12px] leading-[25.2px] text-[#5AB48E] mr-[9.38px] pt-px 
 }
 .banner-logo{
-    @apply w-[658px] h-[908px] absolute top-[25px] left-[120px]
+    @apply w-[658px] h-[908px] absolute top-[25px] left-[56px]
 }
 .banner-logo img{
     @apply w-fit h-fit
